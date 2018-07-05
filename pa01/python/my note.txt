@@ -1,0 +1,11 @@
+Unfininished pattern:
+    # ('stanford.edu','jurafsky')
+    d-l-w-h-@-s-t-a-n-f-o-r-d-.-e-d-u
+    # engler WHERE stanford DOM edu
+    # lam at cs.stanford.edu  !! server at ...
+    # ada&#x40;graphics.stanford.edu
+    # ouster (followed by &ldquo;@cs.stanford.edu&rdquo;)
+    # teresa.lynn (followed by "@stanford.edu")
+
+'([\w|.]+) \s? (?:@|&#x40;|\sat\s) \s? (\w+) . (?:edu|EDU) '
+'([\w|.]+) \s (?:at|&#x40;|WHERE) \s (\w+) (?:\sdot\s|;|\sDOM\s|\s) (\w+)? (?:\sdot\s|;|\sDOM\s|\s)? (?:edu|EDU)'
